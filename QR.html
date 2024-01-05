@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Qr code desing frontend mentor </title>
+    <style>
+        #qr {
+            background-color: rgb(177, 196, 221);
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #qr_bg {
+            /* border: 2px solid blue; */
+            background-color: white;
+            border-radius: 15px;
+            width: 242px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        #qr_img {
+            border-radius: 10px;
+        }
+
+        #para {
+            padding: 10px 1px;
+        }
+
+        .line_1 {
+            color: rgb(54, 53, 53);
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .line_2 {
+            font-size: 12px;
+            color: rgb(116, 113, 113);
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        #line_2_last {
+            font-size: 12px;
+            color: rgb(116, 113, 113);
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="qr">
+        <div id="qr_bg">
+            <img src="qr.png" width="240px" id="qr_img">
+            <div id="para">
+                <div class="line_1"> <b> Improve your front-end </div>
+                <div class="line_1"> skills by building projects </b> </div>
+            </div>
+            <div id="line_2info">
+                <div class="line_2"> Scan QR code to visit Frontend </div>
+                <div class="line_2"> Mentor and take your coding skill to </div>
+                <div id="line_2_last">the next level </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
